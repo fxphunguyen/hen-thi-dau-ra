@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a, b, c;
+        a = parseFloat(prompt('Nhập a:'));
+        b = parseFloat(prompt('Nhập b:'));
+        c = parseFloat(prompt('Nhập c:'));
+        if (a > b && a>c){
+            alert('Số lớn nhất là: '+ a);
+        } else if(b > c && b>a ) {
+            alert('Số lớn nhất là: ' + b);
+        }else if(c > a && c  >b){
+            alert('Số lớn nhất là: ' + c);
+        }else{
+            alert('Bằng nhau')
+        }
+    </script>
+</body>
+</html>

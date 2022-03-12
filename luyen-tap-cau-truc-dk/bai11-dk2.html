@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var sld, giatien;
+        sld = parseFloat(prompt('Nhập số lượng điện tiêu thụ:'));
+
+
+        if (sld <= 50) {
+            alert('Số tiền cần trả là:' + (sld * 1678));
+        } else if (sld <= 100) {
+            alert('Số tiền cần trả là: ' + (sld * 1734));
+        } else if (sld <= 200) {
+            alert('Số tền cần trả là:' + (sld * 2014));
+        } else if (sld <= 300) {
+            alert('Số tiền cần trả là:' + (sld * 2536));
+        } else if (sld <= 400) {
+            alert('Số tiền cần trả là:' + (sld * 2834));
+        } else if (sld > 400) {
+            alert('Số tiền cần trả là:' + (sld * 2927));
+        }
+    </script>
+</body>
+
+</html>
